@@ -1,0 +1,102 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.18720495979165488 -0.7238668240916362 0.6640565668743087 5.540440270699027
+  position -3.8801028306907597 2.9121501487133528 1.7759254803804105
+  follow "e-puck"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 5 5
+  tileSize 1 1
+}
+SolidBox {
+  translation -0.08 2.38 0.125
+  name "box(8)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation -0.08 2.13 0.125
+  name "box(2)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation -0.04 1.92 0.1
+  name "box(12)"
+  size 0.2 0.2 0.2
+}
+SolidBox {
+  translation 0.05 1.71 0.1
+  name "box(14)"
+  size 0.2 0.2 0.2
+}
+SolidBox {
+  translation -0.45 1.45 0.125
+  name "box(13)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation -0.7 1.58 0.125
+  name "box(7)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation -0.71 1.83 0.125
+  name "box(9)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation -1.85 1.8 0.125
+  name "box(10)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation -1.24 1.83 0.125
+  name "box(11)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation 0.76 -1.83 0.125
+  name "box(1)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation -0.48 -1.1 0.125
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation 0.17 -1.39 0.125
+  name "box(3)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation -0.82 -2.16 0.125
+  name "box(4)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation 1.33 -0.94 0.125
+  name "box(5)"
+  size 0.25 0.25 0.25
+}
+SolidBox {
+  translation -1.59 -2.42 0.125
+  name "box(6)"
+  size 0.25 0.25 0.25
+}
+E-puck {
+  translation -2.27701 2.28803 -0.00272588
+  rotation 0 0 -1 0
+  controller "obstacle_avoid"
+}
